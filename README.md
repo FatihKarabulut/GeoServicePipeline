@@ -1,6 +1,6 @@
 GeoServicePipeline projesi üç aşamadan oluşmaktadır:
 
-GeonamesMicroService: İlk aşamada, Java ve Spring kullanılarak geliştirilmiş bir mikro hizmettir. Bu mikro hizmet, Geonames API'den veriyi çekip hazır hale getirir.
+GeonamesMicroService: İlk aşamada, Java ve Spring kullanılarak geliştirilmiş bir mikro hizmettir. Bu mikro hizmet, Geonames API'den çoğrafi veriyi çekip hazır hale getirir.
 
 WikiService: İkinci aşamada, Kotlin dilinde geliştirilmiş bir Android servisi olan WikiService bulunur. Bu servis, Retrofit kullanarak GeonamesMicroService'ten veri alır.
 
